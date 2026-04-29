@@ -48,8 +48,8 @@ end
 M.setup = function()
     vim.api.nvim_create_user_command("Lazygit", M.toggle_lazygit, {})
 
-    vim.keymap.set({ "n", "t" }, "<leader>lg", "<CMD>Lazygit<CR>")
-    vim.keymap.set({ "n", "t" }, "<leader>gl", "<CMD>Lazygit<CR>")
+    vim.keymap.set({ "n", "t" }, "<leader>lg", "<CMD>Lazygit<CR>", { silent = true })
+    vim.keymap.set({ "n", "t" }, "<leader>gl", "<CMD>Lazygit<CR>", { silent = true })
 end
 
 return M
