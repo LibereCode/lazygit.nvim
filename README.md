@@ -2,6 +2,10 @@
 
 Originally one of my _pseudoplugins_ `lua/custom/lazygit.lua`
 
+> [!NOTE]
+> The command `lazygit` is not created by me. Checkout the original
+> repo called: [lazygit](https://github.com/jesseduffield/lazygit)
+
 ## USE
 
 First add install it manually or with your favorite plugin-manager
