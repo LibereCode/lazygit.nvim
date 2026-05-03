@@ -38,5 +38,6 @@ vim.pack.add({
 local lg, map = require('lazygit'), vim.keymap.set
 lg.setup() -- loads default config
 -- OR --
-map({'n', 't'}, lg.toggle_lazygit, {silent = true, desc = "lazygit plugin?"})
+map({'n', 't'}, "<leader>gg", lg.toggle_lazygit,
+    {silent = true, desc = "lazygit plugin?"})
 ```
